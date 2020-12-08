@@ -1,5 +1,3 @@
-server:
-  port: 9089
 spring:
   application:
     name: backlog-service
