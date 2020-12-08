@@ -1,10 +1,8 @@
-server:
-  port: 9091
 eureka:
   instance:
-    hostname: localhost
+    hostname: registry-service-cn.herokuapp.com
     client:
       registerWithEureka: false
       fetchRegistry: false
       serviceUrl:
-        defaultZone: http://localhost:9091/eureka/
+        defaultZone: https://registry-service-cn.herokuapp.com/eureka/
