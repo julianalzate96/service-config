@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: score-service
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:~/test;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driver-close-name: org.h2.Driver
+    platform: h2
+    username: sa
+    password:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.H2Dialect
