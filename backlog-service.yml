@@ -19,4 +19,4 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: https://registry-service-cn.herokuapp.com/
+      defaultZone: https://registry-service-cn.herokuapp.com/eureka/
