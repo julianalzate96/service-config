@@ -7,4 +7,4 @@ eureka:
       registerWithEureka: false
       fetchRegistry: false
       serviceUrl:
-        defaultZone: https://registry-service-cn.herokuapp.com//eureka/
+        defaultZone: http://localhost:9091/eureka/
