@@ -1,6 +1,5 @@
 eureka:
   instance:
-    hostname: registry-service-cn.herokuapp.com
     client:
       registerWithEureka: false
       fetchRegistry: false
