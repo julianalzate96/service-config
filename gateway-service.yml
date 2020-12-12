@@ -3,7 +3,7 @@ eureka:
     serviceUrl:
       defaultZone: https://registry-service-cn.herokuapp.com/eureka/
 spring:
-  clud:
+  cloud:
     gateway:
       discovery:
         locator:
