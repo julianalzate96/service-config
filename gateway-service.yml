@@ -1,0 +1,23 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://registry-service-cn.herokuapp.com//eureka/
+spring:
+  clud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: task-service
+          uri: lb://task-service
+          predicates:
+           - Path=/task/**
+        - id: project-service
+          uri: lb://prject-service
+          predicates:
+            - Path=/project/**
+        - id: backlog-service
+          uri: lb://backlog-service
+          predicates:
+            - Path=/backlogs/**
