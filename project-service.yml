@@ -18,10 +18,7 @@ spring:
   boot:
     admin:
       client:
-        url: http://localhost:9099
-
-server:
-  port: 9096
+        url: https://admin-service-cn.herokuapp.com/
 
 eureka:
   client:

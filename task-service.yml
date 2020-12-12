@@ -15,6 +15,10 @@ spring:
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.H2Dialect
+  boot:
+    admin:
+      client:
+        url: https://admin-service-cn.herokuapp.com/
 
 eureka:
   client:
