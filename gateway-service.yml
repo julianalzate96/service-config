@@ -10,11 +10,11 @@ spring:
           enabled: true
       routes:
         - id: task-service
-          uri: http://task-service-cn.herokuapp.com
+          uri: https://task-service-cn.herokuapp.com
           predicates:
            - Path=/task/**
         - id: project-service
-          uri: https://project-service.herokuapp.com
+          uri: https://project-service-cn.herokuapp.com
           predicates:
             - Path=/project/**
         - id: backlog-service
