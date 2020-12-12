@@ -14,7 +14,7 @@ spring:
           predicates:
            - Path=/task/**
         - id: project-service
-          uri: lb://project-service
+          uri: https://project-service.herokuapp.com
           predicates:
             - Path=/project/**
         - id: backlog-service
