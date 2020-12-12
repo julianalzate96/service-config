@@ -15,8 +15,13 @@ spring:
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.H2Dialect
-    
+
 eureka:
   client:
     serviceUrl:
       defaultZone: https://registry-service-cn.herokuapp.com/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
