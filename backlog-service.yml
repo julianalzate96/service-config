@@ -15,10 +15,7 @@ spring:
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.H2Dialect
-
-server:
-  port: 9099
-
+    
 eureka:
   client:
     serviceUrl:
