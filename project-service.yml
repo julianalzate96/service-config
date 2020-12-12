@@ -1,6 +1,6 @@
 spring:
   application:
-    name: project-service
+    name: project-service-cn
   h2:
     console:
       enabled: true
