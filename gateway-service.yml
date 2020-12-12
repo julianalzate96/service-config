@@ -10,7 +10,7 @@ spring:
           enabled: true
       routes:
         - id: task-service
-          uri: lb://task-service
+          uri: http://task-service-cn.herokuapp.com
           predicates:
            - Path=/task/**
         - id: project-service
@@ -18,6 +18,6 @@ spring:
           predicates:
             - Path=/project/**
         - id: backlog-service
-          uri: lb://backlog-service
+          uri: https://backlog-service.herokuapp.com
           predicates:
             - Path=/backlogs/**
