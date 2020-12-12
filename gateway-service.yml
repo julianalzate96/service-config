@@ -14,7 +14,7 @@ spring:
           predicates:
            - Path=/task/**
         - id: project-service
-          uri: lb://prject-service
+          uri: lb://project-service
           predicates:
             - Path=/project/**
         - id: backlog-service
