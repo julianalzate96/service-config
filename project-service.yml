@@ -23,3 +23,8 @@ eureka:
   client:
     serviceUrl:
       defaultZone: https://registry-service-cn.herokuapp.com/eureka/
+      management:
+endpoints:
+  web:
+    exposure:
+      nclude: "*"
